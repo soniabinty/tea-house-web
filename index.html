@@ -22,9 +22,9 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="manrope w-5/6 mx-auto">
+  <body class="manrope">
     <header
-      class="flex flex-col px-1 lg:flex-row mx-auto py-10 justify-between"
+      class="w-5/6 mx-auto flex flex-col px-1 lg:flex-row mx-auto py-10 justify-between"
     >
       <div>
         <h1 class="text-6xl font-bold">
@@ -59,7 +59,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="w-5/6 mx-auto">
       <!-- product -->
       <section class="mx-auto px-1">
         <div class="text-center px-5">
@@ -338,6 +338,105 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="w-full mx-auto bg-gradient-to-r from-red-100 to-red-50">
+      <div class="lg:flex justify-between w-5/6 mx-auto my-5 lg:p-12">
+        <div class="p-7 lg:p-3 flex justify-center text-center">
+          <img
+            class="lg:w-full w-1/5 text-center"
+            src="images/cup.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="lg:flex justify-between items-center space-y-4 lg:space-x-7 text-center"
+        >
+          <p class="text-gray-500">Ready to get strated?</p>
+          <button
+            class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-3 lg:py-4 rounded-lg text-white font-bold text-base"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+
+      <!-- footer context -->
+
+      <div
+        class="lg:flex w-5/6 mx-auto lg:p-12 justify-between text-center lg:text-start space-y-6 lg:space-y-0 mt-5 lg:mt-0"
+      >
+        <div class="space-y-3">
+          <h6 class="font-bold text-xl">Quick Links</h6>
+
+          <ul class="text-gray-500 font-normal">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Insurance</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <h6 class="font-bold text-xl">Our Service</h6>
+
+          <ul class="text-gray-500 font-normal">
+            <li>Life Insurance</li>
+            <li>Car Insurance</li>
+            <li>Health Insurance</li>
+            <li>House Insurance</li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <h6 class="font-bold text-xl">Help</h6>
+
+          <ul class="text-gray-500 font-normal">
+            <li>FAQs</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+
+        <div class="space-y-5">
+          <div>
+            <h4 class="text-xl font-bold">
+              Subscribe to our <br />
+              newsletter
+            </h4>
+          </div>
+          <div class="flex justify-center justify-between px-10 lg:px-0">
+            <div class="border-b-2 border-black w-5/6">
+              <input
+                class="bg-transparent text-gray-500"
+                type="email"
+                placeholder="Email address"
+              />
+            </div>
+
+            <div
+              class="rounded-full bg-gradient-to-r from-[#FF8938] to-[#FF0000]"
+            >
+              <i
+                class="fa-solid fa-chevron-up text-white rotate-90 inline-flex justify-center items-center w-7 h-7"
+              ></i>
+            </div>
+          </div>
+
+          <div
+            class="flex space-x-4 text-center justify-center lg:justify-start text-gray-600"
+          >
+            <i class="fa-brands fa-facebook"></i>
+
+            <i class="fa-brands fa-twitter"></i>
+
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <p class="text-gray-500 p-12">
+          © 2027 UIDesign.to - All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
